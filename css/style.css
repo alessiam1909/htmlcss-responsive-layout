@@ -176,7 +176,7 @@ header {
 
 }
 
-@media screen and (max-width:768px){
+@media screen  and (max-width:768px){
     .main-menu {
         display: none;
     }
@@ -194,10 +194,9 @@ header {
         margin-bottom: 20px;
     }
 
-    .col-30 {
-        width: 49%;
-    }
-
+    .col-30{
+        min-width: 49%;
+    } 
 }
 
 @media screen and (max-width:992px){
@@ -210,7 +209,11 @@ header {
         margin-bottom: 20px;
     }
 
-    .col-30 {
-        width: 49%;
+    .row {
+        flex-wrap: wrap;
     }
+
+    .col-30{
+        min-width: 49%;
+    } 
 }
