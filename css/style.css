@@ -170,7 +170,32 @@ header {
         margin-bottom: 20px;
     }
 
-    .container-30 {
+    .container-60, .container-50, .container-30 {
         width: 80%;
     }
+
+}
+
+@media screen and (max-width:768px){
+    .main-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .container-60, .container-50, .container-30 {
+        width: 90%;
+    }
+
+    .col-50, .col-50n2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .col-30 {
+        width: 49%;
+    }
+
 }
