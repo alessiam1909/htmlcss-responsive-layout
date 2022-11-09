@@ -15,19 +15,22 @@ header {
     color: white;
 }
 
-.container {
+.container-60 {
     width: 60%;
     margin: 0 auto;
 }
 
-.row {
+.row-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.col-header {
+.row {
+    margin: 20px 0;
+}
 
+.col-header {
     margin: 20px 0;
 }
 
@@ -36,15 +39,20 @@ header {
     display: flex;
 }
 
+.main-menu li {
+    padding: 10px;
+}
+
 .main-menu a{
     color: white;
-    padding: 10px;
     text-decoration: none;
 }
 
 .btn-speciale a {
     color: black;
     background-color: white;
+    padding: 7px;
+    border-radius: 20px;
 }
 
 .hamburger {
@@ -53,16 +61,48 @@ header {
 
 /* creazione prima sezione del main */
 
-.bg-azzurro{
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.col-grow {
+    width: 32%;
+    flex-grow: 2;
     background-color: rgba(181,221,255,255);
-    border-radius: 5%;
+    margin-right: 20px;
 }
 
-.col {
-    width: 100%;
-    text-align: center;
+.col-33{
+    width: 32%;
+    background-color: rgba(181,221,255,255);
 }
 
-.contenitore-immagine img {
-    width: 300px;
+/* creazione seconda sezione del main */
+
+.bg-violet {
+    margin-top: 60px;
+    background-color: rgba(151,146,228,255);
+}
+
+.container-50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-50n2 {
+    width: 40%;
+    background-color: white;
+    height: 200px;
+    margin-top: 80px;
 }
