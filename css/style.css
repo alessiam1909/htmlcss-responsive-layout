@@ -176,7 +176,7 @@ header {
 
 }
 
-@media screen  and (max-width:768px){
+@media screen and (min-width:577px) and (max-width:768px){
     .main-menu {
         display: none;
     }
@@ -199,7 +199,7 @@ header {
     } 
 }
 
-@media screen and (max-width:992px){
+@media screen and (min-width:769px) and (max-width:992px){
     .container-60, .container-50, .container-30 {
         width: 90%;
     }
@@ -218,7 +218,7 @@ header {
     } 
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:993px) and (max-width:1200px){
     .container-60, .container-50, .container-30 {
         width: 80%;
     }
