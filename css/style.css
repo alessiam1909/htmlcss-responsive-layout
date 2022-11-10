@@ -542,6 +542,15 @@ span{
         margin-bottom: 20px;
     }
 
+    .col-15 img {
+        width: 100px;
+        object-fit: cover;
+        margin: 20px 10px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+
     .row {
         flex-wrap: wrap;
     }
