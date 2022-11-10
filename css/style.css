@@ -385,9 +385,59 @@ header {
 }
 
 .content {
-    background-color: #fff;
-    height: 200px;
-    padding: 10px;
+   text-align: center;
+   color: white;
+}
+
+span{
+    display: block;
+    color: lightgrey;
+    padding: 20px 0;
+}
+
+.content h3{
+    font-size: 25px;
+}
+
+.content h1{
+    color: #fdc15f;
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.btn-finale {
+    background-color:white;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+    width: 50%;
+}
+
+.btn-finale a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(151,146,228,255);
+}
+
+.content p{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.link-bianco{
+    color: white;
+}
+
+.content:last-child{
+    padding-bottom: 20px;
+}
+
+.bg-grey p{
+    padding: 20px;
+}
+
+.link-viola {
+    color: rgba(151,146,228,255);
 }
 
 @media screen and (max-width:576px){
