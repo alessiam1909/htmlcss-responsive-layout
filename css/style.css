@@ -149,6 +149,7 @@ header {
 
 .bg-violet {
     background-color: rgba(151,146,228,255);
+    width: 100%;
 }
 
 .container-50 {
@@ -196,6 +197,7 @@ header {
 }
 
 .freccia {
+    border: none;
     margin:10px auto;
     height: 30px;
     width: 12%;
@@ -231,7 +233,7 @@ header {
 }
 
 .col-15 img {
-    width: 100%;
+    width: 120px;
     object-fit: cover;
     margin: 20px 10px;
     height: 120px;
@@ -332,7 +334,7 @@ header {
 }
 
 .col-20 img {
-    width: 80%;
+    width: 120px;
     margin: 20px 10px;
     height: 120px;
     border-radius: 50%;
@@ -458,6 +460,10 @@ span{
         margin-bottom: 20px;
     }
 
+    .col-85 p{
+        padding: 10px;
+    }
+
     .col-15, .col-85 {
         text-align: center;
     }
@@ -471,7 +477,7 @@ span{
     }
 
     .col-20 img {
-        width: 50%;
+        width: 120px;
         margin: 20px 10px;
         height: 120px;
         border-radius: 50%;
@@ -498,6 +504,18 @@ span{
 
     .img img {
         width: 60%;
+    }
+
+    .col-15 img {
+        width: 120px;
+        object-fit: cover;
+        margin: 20px 10px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .col-85{
+        width: 70%;
     }
 
     .container-60, .container-50, .container-30 {
