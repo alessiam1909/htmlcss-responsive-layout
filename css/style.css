@@ -217,3 +217,22 @@ header {
         min-width: 49%;
     } 
 }
+
+@media screen and (max-width:1200px){
+    .container-60, .container-50, .container-30 {
+        width: 80%;
+    }
+
+    .col-50, .col-50n2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-30{
+        min-width: 49%;
+    } 
+}
