@@ -205,12 +205,57 @@ header {
 /* creazione terza sezione */
 
 .introduzione{
-    height: 200px;
-    background-color: red;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.introduzione h2{
+    color: rgba(151,146,228,255);
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 30px;
 }
 
 .bordo-tondo {
     border-radius: 20px;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-85{
+    width: 80%;
+    line-height: 25px;
+    color: white;
+}
+
+.col-15 img {
+    width: 100%;
+    object-fit: cover;
+    margin: 20px 10px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.col-85 h3 {
+    margin: 20px 0;
+}
+
+.col-85 p{
+    padding-top: 20px;
+}
+
+.col-85 p::before{
+    content: "❝";
+    padding: 5px;
+    font-size: 30px;
+}
+
+.col-85 p::after{
+    content: "❞";
+    padding: 5px;
+    font-size: 30px;
 }
 
 /* creazione quarta sezione */
@@ -267,9 +312,21 @@ header {
         width: 100%;
     }
 
-    .col-grow, .col-33, .col-50, .col-50n2, .col-30, .col-80, .col-20 {
+    .col-grow, .col-33, .col-50, .col-50n2, .col-30, .col-80, .col-20, .col-15, .col-85 {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .col-15, .col-85 {
+        text-align: center;
+    }
+
+    .col-15 img {
+        width: 30%;
+        object-fit: cover;
+        margin: 20px 10px;
+        height: 120px;
+        border-radius: 50%;
     }
 
     .container-60, .container-50, .container-30 {
