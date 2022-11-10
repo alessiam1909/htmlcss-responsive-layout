@@ -66,20 +66,79 @@ header {
 }
 
 .col{
-    height: 300px;
     border-radius: 20px;
 }
 
 .col-grow {
     width: 32%;
+    display: flex;
+    flex-wrap: wrap;
     flex-grow: 2;
+    padding: 0 20px;
+    line-height: 25px;
     background-color: rgba(181,221,255,255);
     margin-right: 20px;
 }
 
+.text {
+    width: 50%;
+}
+
+.img {
+    width: 50%;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.img img {
+    width: 80%;
+    margin-bottom: -7px;
+}
+
 .col-33{
     width: 32%;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px;
     background-color: rgba(181,221,255,255);
+}
+
+.col-33 i {
+    font-size: 80px;
+    padding: 10px;
+}
+
+.col-grow h3{
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.col-grow .link-apple{
+    background-color:rgba(0,132,253,255) ;
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.link-apple a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.link-apple i {
+    padding: 5px;
+}
+
+
+.col-33 h3 {
+    font-weight: 700;
+    padding: 10px;
+}
+
+.col-33 i, .col-33 h3, .col-grow h3 {
+    color: rgba(0,132,253,255);
 }
 
 /* creazione seconda sezione del main */
@@ -165,6 +224,10 @@ header {
         display: block;
     }
 
+    .img, .text {
+        width: 100%;
+    }
+
     .col-grow, .col-33, .col-50, .col-50n2, .col-30, .col-80, .col-20 {
         width: 100%;
         margin-bottom: 20px;
@@ -183,6 +246,14 @@ header {
 
     .hamburger {
         display: block;
+    }
+    
+    .img, .text {
+        width: 100%;
+    }
+
+    .img img {
+        width: 60%;
     }
 
     .container-60, .container-50, .container-30 {
