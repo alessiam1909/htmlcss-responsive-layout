@@ -8,6 +8,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* creazione header */
 
 header {
@@ -150,17 +154,52 @@ header {
 .container-50 {
     width: 50%;
     margin: 0 auto;
+    padding: 40px 0;
 }
 
 .col-50 {
-    width: 50%;
+    width: 55%;
+    color: white;
 }
 
 .col-50n2 {
     width: 40%;
     background-color: white;
-    height: 200px;
-    margin-top: 80px;
+    align-self: flex-end;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.col-50 img {
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+.col-50n2 img {
+    width: 70%;
+}
+
+.col-50 p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.col-50n2 h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.freccia a {
+    color: black;
+}
+
+.freccia {
+    margin:10px auto;
+    height: 30px;
+    width: 12%;
+    padding: 3px;
 }
 
 /* creazione terza sezione */
@@ -272,7 +311,7 @@ header {
 
 @media screen and (min-width:769px) and (max-width:992px){
     .container-60, .container-50, .container-30 {
-        width: 90%;
+        width: 80%;
     }
 
     .col-50, .col-50n2 {
@@ -291,7 +330,7 @@ header {
 
 @media screen and (min-width:993px) and (max-width:1200px){
     .container-60, .container-50, .container-30 {
-        width: 80%;
+        width: 70%;
     }
 
     .col-50, .col-50n2 {
