@@ -20,7 +20,7 @@ header {
 }
 
 .container-60 {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -255,7 +255,11 @@ header {
 .col-85 p::after{
     content: "❞";
     padding: 5px;
-    font-size: 30px;
+     font-size: 30px;
+}
+
+.margin-bottom100px{
+    margin-bottom: 100px;
 }
 
 /* creazione quarta sezione */
@@ -263,12 +267,46 @@ header {
 .col-30 {
     width: 32%;
     margin-bottom: 10px;
+    padding: 20px;
     background-color: white;
 }
 
 .padding-bottom-20 {
     padding-bottom: 20px;
 }
+
+#anchor {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.col-30 h1, .col-30 h4{
+    color: rgba(151,146,228,255);
+    margin: 10px 0;
+}
+
+.col-30 p{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.btn-more {
+    background-color:rgba(151,146,228,255) ;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px;
+    width: 50%;
+}
+
+.btn-more a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
 
 /* creazione quinta sezione */
 
